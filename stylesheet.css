@@ -1,5 +1,22 @@
+body {
+    background-color: rgb(243, 239, 239);
+}
+
+button {
+    background-image: linear-gradient( #FF6F48,#F02AA6);
+    border-radius: 20px ;
+    padding: 10px 30px;
+    border-style: none;
+    color: white;
+}
+
+p {
+    color: #83869A;
+}
+
 h1 {
-color: blue;
+color: #13183F;
+font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .headline-img {
     display: flex;
@@ -15,26 +32,45 @@ color: blue;
 .cards {
     display: flex;
     flex-wrap: wrap;
+    background-image: none;
+    text-align: left;
+    
+
     
 }
 .card {
     width: 30%;
     height: 300px ;
-    background-color: aquamarine;
+    background-color: #fdfffefe;
     margin: 5px;
     border-radius: 5px;
     position: relative;
+    /* text-align: center; */
+}
+.card p  {
+    width: 90%;
+    padding: 0px 6px;
 }
 
 .check {
     font-size: 25px;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    /* top: 20px;
+    left: 20px; */
+   
 }
 a {
     text-decoration: none;
 }
-.card p {
+.card1 p {
     padding: 0px 2px;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+}
+.card1 {
+    background-image: linear-gradient( #FF6F48,#F02AA6);
+    
 }
